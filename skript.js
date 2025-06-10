@@ -16,10 +16,6 @@ function divadd() {
   startupbtn.style.display = "none";
 }
 
-if (window.getComputedStyle(removeDive).display === "none") {
-  startupbtn.style.display = "block";
-} else {
-  startupbtn.style.display = "none";
-}
+
 startupbtn.addEventListener("click", divadd);
 toglebtn.addEventListener("click", divremover);
